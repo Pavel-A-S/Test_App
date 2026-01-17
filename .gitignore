@@ -1,0 +1,21 @@
+# Python
+env/
+venv/
+__pycache__/
+*.pyc
+*.egg-info/
+
+# Secrets
+#.env
+
+# Docker
+docker-compose.override.yml
+mysql_data/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs / temp
+*.log
+*.sqlite3
